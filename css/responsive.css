@@ -49,5 +49,15 @@
         padding: 70px 0;
         height: 1000px;
     }
+    .price {
+        font-size: 20px;
+    }
+    .primary-btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .cart {
+        width: 18px !important;
+    }
 }
 
