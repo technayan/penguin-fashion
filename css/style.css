@@ -1,0 +1,145 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.primary-btn {
+    padding: 18px 33px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+}
+.primary-btn .cart {
+    width: 24px;
+}
+.primary-btn:hover {
+    background: linear-gradient( 180deg, #85A019 100%, #A4BC46 0%);
+    color: #fff;
+}
+
+/* Header Area CSS */
+.navbar {
+    background: #fffbf0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    width: 290px;
+}
+.nav-link {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+.nav-link:hover {
+    color: #a4bc46;
+}
+
+/* Hero Section CSS */
+.hero-section {
+    height: 715px;
+    background: #fffbf0;
+}
+.hero-title {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.hilighted {
+    color: #fabe4c;
+}
+.hero-desc {
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+}
+
+/* Product Section CSS */
+.product-section {
+    padding: 66px 0;
+}
+.section-title {
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.product-wrapper {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.product-img-wrapper {
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.product-img {
+    width: 293px;
+    transition: transform 0.3s ease;
+}
+.product-wrapper:hover .product-img{
+    transform: scale(1.1)
+}
+.product-title {
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+}
+.product-title:hover {
+    color: #a4bc46;
+}
+.product-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3e3e3e;
+}
+.price {
+    font-size: 36px;
+    font-weight: 900;
+    color: #fabe4c;
+}
+
+/* Feature Section CSS */
+.feature-section {
+    padding: 66px 0;
+}
+.feature {
+    padding: 26px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 85%;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.feature:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.feature-icon {
+    width: 78px;
+}
+.feature-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.feature-desc {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
